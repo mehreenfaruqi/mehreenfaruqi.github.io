@@ -1,0 +1,95 @@
+.card-container {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1rem;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 0 1rem 1rem;
+  flex: 1 1 100%;
+  background-color: $mf-white;
+}
+
+/*
+ * Contact card
+ */
+.card-contact {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card-text--orange {
+  background-color: $mf-orange;
+  color: $mf-black;
+}
+
+/*
+ * Forms
+ */
+form {
+  display: block;
+}
+
+button,
+input {
+  width: auto;
+  margin: 0.5rem auto;
+  display: block;
+  font-family: $sans-fonts;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  padding: 0.5rem;
+  background: none;
+  text-transform: uppercase;
+  border: 1px solid $mf-black;
+}
+
+button:hover,
+button:active {
+  border: 1px solid $mf-orange;
+}
+
+input {
+
+  border: 0;
+  color: $mf-grey;
+  border-bottom: 1px solid $mf-grey;
+}
+
+input:active,
+input:hover {
+  border-bottom-color: $mf-orange;
+  color: $mf-black;
+  outline: none;
+}
+
+@media (min-width:$breakpoint) {
+  .card-contact {
+    text-align: left;
+  }
+  .card-container {
+    width: 80%;
+    display: flex;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+  button,
+  input {
+    width: 1rem;
+    flex: 1 1 100%;
+  }
+  input {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  background-color: $mf-grey;
+  color: $mf-white;
+  font-family: $sans-fonts;
+  text-align: center;
+}
+
+.footer__logo {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+@media (min-width:$breakpoint) {
+  .footer__logo {
+    width: 25%;
+  }
+}
