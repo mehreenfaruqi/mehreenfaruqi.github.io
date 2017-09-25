@@ -11,6 +11,10 @@ footer {
   margin: 1rem auto;
 }
 
+footer > p > a {
+  color: $mf-white;
+}
+
 @media (min-width:$breakpoint) {
   .footer__logo {
     width: 25%;

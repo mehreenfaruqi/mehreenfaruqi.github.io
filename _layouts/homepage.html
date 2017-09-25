@@ -3,7 +3,10 @@ layout: base
 ---
 
 <header>
-  <div class="header__background"></div>
+  <!--
+  <div class="header__background-wrapper">
+    <div class="header__background"></div>
+  </div>-->
   <div class="header__logo">
     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 655.5 221.2">
       <style>.st1{fill:#F98436;}</style>
@@ -13,12 +16,12 @@ layout: base
 </header>
 
 <section class="header-card">
-  <h1 class="header-card__heading">LORUM IPSUM HEADING</h1>
-  <p class="header-card__body">Content for the paragraph.</p>
-  <p class="header-card__body">Content for the paragraph.</p>
-  <p class="header-card__body"><a href="#">Link! with play descender.</a></p>
-  <p class="header-card__body">Content for the paragraph.</p>
-  <p class="header-card__body">Content for the paragraph.</p>
+  <h1 class="header-card__heading">Heading</h1>
+  <p class="header-card__body">Paragraph content.</p>
+  <p class="header-card__body">Paragraph content.</p>
+  <p class="header-card__body">Paragraph content.</p>
+  <p class="header-card__body">Paragraph content <a href="#">with link</a>.</p>
+  <p class="header-card__body signature">Signature</p>
 </section>
 
 <section class="card-container">
@@ -31,7 +34,7 @@ layout: base
   <article class="card card-contact">
     <h3>Sign up to stay in touch</h3>
     <form class="" action="index.html" method="post">
-      <input type="text" name="" value="First name"></input>
+      <input type="text" name="" value="Name"></input>
       <input type="text" name="" value="Email"></input>
       <button type="button" name="submit">Submit</button>
     </form>
@@ -40,18 +43,13 @@ layout: base
 
 <section class="card-container">
   <article class="card card-text">
-    <h2>Five things</h2>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-      <li>Four</li>
-    </ul>
+    <h2>Text card</h2>
+    <p>Text card with a paragraph that can go on for a while. <a href="#">Links included</a>. Text card with a paragraph that can go on for a while. Text card with a paragraph that can go on for a while.</p>
   </article>
   <article class="card card-text card-text--orange">
-    <h2>Stay in touch</h2>
-    <p>We would love to hear from you.</p>
-    <p>Call any time on: 123123123</p>
+    <h2>Orange text card</h2>
+    <p>Text text text text.</p>
+    <p>Text text text text.</p>
   </article>
 </section>
 
@@ -59,9 +57,14 @@ layout: base
   <article class="card">
     <img src="assets/images/mehreen2.jpg" alt=""></img>
   </article>
-  <article class="card card-text card-text--orange">
-    <h2>Stay in touch</h2>
-    <p>We would love to hear from you.</p>
-    <p>Call any time on: 123123123</p>
+  <article class="card card-text">
+    <h2>List card</h2>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ul>
   </article>
 </section>
