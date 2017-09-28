@@ -35,6 +35,7 @@ form {
   display: block;
 }
 
+.button,
 button,
 input {
   width: auto;
@@ -45,6 +46,7 @@ input {
   line-height: 1.5;
 }
 
+.button,
 button {
   padding: 0.5rem;
   background: none;
@@ -52,13 +54,14 @@ button {
   border: 1px solid $mf-black;
 }
 
+.button:hover,
+.button:active,
 button:hover,
 button:active {
   border: 1px solid $mf-orange;
 }
 
 input {
-
   border: 0;
   color: $mf-grey;
   border-bottom: 1px solid $mf-grey;
@@ -83,6 +86,7 @@ input:hover {
     display: flex;
     justify-content: space-between;
   }
+  .button,
   button,
   input {
     width: 1rem;
