@@ -76,24 +76,25 @@ input:hover {
 
 @media (min-width:$breakpoint) {
   .card-contact {
-    text-align: left;
+    //text-align: left;
   }
   .card-container {
     width: 80%;
     display: flex;
   }
   form {
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
   }
   .button,
   button,
   input {
-    width: 1rem;
-    flex: 1 1 100%;
+    //width: 1rem;
+    //flex: 1 1 100%;
   }
   input {
-    padding: 0.5rem 0.5rem 0.5rem 0;
-    margin-right: 1rem;
+    //padding: 0.5rem 0.5rem 0.5rem 0;
+    margin: 1rem auto;
+    //margin-right: 1rem;
   }
 }
