@@ -54,10 +54,15 @@ h3 {
   letter-spacing: 0.75px;
 }
 
+ul {
+  padding: 0 0 0 1.5rem;
+}
+
 p,
 li {
   margin: 0 0 1rem;
 }
+
 a {
   color: $mf-black;
   text-decoration-color: $mf-orange;
