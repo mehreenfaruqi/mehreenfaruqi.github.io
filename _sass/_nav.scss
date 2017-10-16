@@ -1,0 +1,29 @@
+nav {
+  margin: 1rem;
+  font-family: $sans-fonts;
+  font-size: 1.5rem;
+
+}
+
+.nav__list {
+  margin: 0 auto;
+  border: 1px solid $mf-orange;
+  background-color: $mf-light-orange;
+  padding: 0.5rem;
+  list-style: none;
+  text-align: center;
+}
+
+@media (min-width: $breakpoint) {
+  .nav__list {
+    width: 50%;
+  }
+}
+
+.nav__item {
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+}
