@@ -8,7 +8,7 @@ nav {
 .nav__list {
   margin: 0 auto;
 
-  background-color: $mf-light-orange;
+
 
   list-style: none;
   text-align: center;
@@ -22,6 +22,7 @@ nav {
 
 .nav__item {
   display: inline-block;
+  background-color: $mf-light-orange;
   margin: 0 0.25rem 0.5rem;
   padding: 0.5rem;
   border: 1px solid $mf-orange;
